@@ -134,7 +134,7 @@ namespace Plugins.TyrAdsSDK.Scripts
         void SetServer()
         {
             _api.server.address = "api.tyrads.com";
-            _api.server.version = "v1";
+            _api.server.version = "v1.1";
             _api.server.apiKey = apiKey;
             _api.server.apiSecret = apiSecret;
         }
